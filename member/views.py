@@ -41,7 +41,7 @@ class UpdateUser(APIView):
         if nickname is not None:
             user.nickname = nickname
         if phone_number is not None:
-            user.phonenumber = phone_number
+            user.phone_number = phone_number
         if city is not None:
             user.city = city
         if district is not None:
